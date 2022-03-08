@@ -48,3 +48,9 @@ p {
     line-height: 1.5;
     padding: 0 10% 15% 10%;
 }
+
+@media (min-width:1440px) {
+    .container > section {
+        height: 55vh;
+    }
+}
